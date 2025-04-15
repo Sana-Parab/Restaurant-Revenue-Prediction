@@ -20,21 +20,46 @@ _Target Variable (Output):_
 
 > Monthly_Revenue - The total revenue generated in a month.
 
-1.Data Preprocessing Read the dataset using pandas. Handle missing values and remove unnecessary columns. Encode categorical 
-  variables such as cuisine type. Perform feature selection using statistical methods and correlation analysis.
+1. Data Preprocessing
+Read the dataset using pandas.
+Handle missing values and remove unnecessary columns.
+Encode categorical variables such as cuisine type.
+Perform feature selection using statistical methods and correlation analysis.
 
-2.Exploratory Data Analysis (EDA) Analyze the distribution of numerical features. Identify correlations between variables. 
-  Visualize revenue trends using: Histograms Pairplots Boxplots Correlation heatmaps
+2. Exploratory Data Analysis (EDA)
+Analyze the distribution of numerical features.
+Identify correlations between variables.
+Visualize revenue trends using:
+Histograms
+Pairplots
+Boxplots
+Correlation heatmaps
 
-3.Feature Engineering Transform skewed data for better model performance. Normalize/standardize features. Create new derived 
-  variables if necessary.
+3. Feature Engineering
+Transform skewed data for better model performance.
+Normalize/standardize features.
+Create new derived variables if necessary.
 
-4.Model Selection & Training Split the dataset into training and testing sets. Train multiple regression models: Linear 
-  Regression Lasso Regression Ridge Regression Decision Tree Regressor Random Forest Regressor Gradient Boosting Regressor K- 
-  Nearest Neighbors (KNN) Use GridSearchCV for hyperparameter tuning.
+4. Model Selection & Training
+Split the dataset into training and testing sets.
+Train multiple regression models:
+Linear Regression
+Lasso Regression
+Ridge Regression
+Decision Tree Regressor
+Random Forest Regressor
+Gradient Boosting Regressor
+K-Nearest Neighbors (KNN)
+Use GridSearchCV for hyperparameter tuning.
 
-5.Model Evaluation Evaluate models using: Mean Absolute Error (MAE) Mean Squared Error (MSE) Root Mean Squared Error (RMSE) 
-  R- squared Score (R²) Compare model performances and select the best approach. Results & Insights
+5. Model Evaluation
+Evaluate models using:
+Mean Absolute Error (MAE)
+Mean Squared Error (MSE)
+Root Mean Squared Error (RMSE)
+R-squared Score (R²)
+Compare model performances and select the best approach.
+Results & Insights
 
 **Top Features Impacting Revenue:** Marketing Spend and Promotions significantly impact revenue growth. Customer Reviews and Average Spending play a vital role in revenue variation. Menu Pricing should be optimized for better profitability.
 
