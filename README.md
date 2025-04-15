@@ -8,23 +8,17 @@ Restaurants generate revenue through multiple factors, and understanding the key
 
 The dataset used in this project consists of various restaurant attributes: _Input Variables (Features):_
 
-Number_of_Customers - The total number of customers visiting the restaurant.
-
-Menu_Price - The average price of items on the menu.
-
-Marketing_Spend - The budget allocated for marketing campaigns.
-
-Cuisine_Type - Type of cuisine offered.
-
-Average_Customer_Spending - The average spending per customer.
-
-Promotions - Special deals or discounts offered.
-
-Reviews - Customer feedback and ratings.
+> Number_of_Customers - The total number of customers visiting the restaurant. <br>
+> Menu_Price - The average price of items on the menu. <br>
+> Marketing_Spend - The budget allocated for marketing campaigns. <br>
+> Cuisine_Type - Type of cuisine offered. <br>
+> Average_Customer_Spending - The average spending per customer. <br>
+> Promotions - Special deals or discounts offered. <br>
+> Reviews - Customer feedback and ratings. <br>
 
 _Target Variable (Output):_
 
-Monthly_Revenue - The total revenue generated in a month.
+> Monthly_Revenue - The total revenue generated in a month.
 
 1.Data Preprocessing Read the dataset using pandas. Handle missing values and remove unnecessary columns. Encode categorical 
   variables such as cuisine type. Perform feature selection using statistical methods and correlation analysis.
